@@ -139,10 +139,15 @@ nav {
     color: #0000007c;
 }
 
-/* Fedback
+/* Fedback */
 
 .feedbacks {
     margin: 137px 149px;
+}
+.feedbacks h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
 }
 
 .feedbacks-container {
@@ -182,7 +187,7 @@ nav {
     padding: 0px;
     font-family: "Inter", sans-serif;
 }
- */
+
  
 
  /* focus-cotainer */
@@ -191,7 +196,12 @@ nav {
     margin: 150px 150px;
     background-color: #fff;
     gap: 40px;
- }
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
  .focus-items {
     text-align: center;
     padding: 70px 70px;
