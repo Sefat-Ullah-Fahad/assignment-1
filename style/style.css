@@ -107,3 +107,35 @@ nav {
 }
 
          /* user-section */
+.user-section {
+    
+}
+
+.user-items {
+    background-color: #4d47ff37;
+    margin: 100px 159px;
+    padding:  60px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.user-items h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.user-item {
+    display: flex;
+    justify-content: space-around;
+}
+.user-item span {
+    font-size: 70px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-item p {
+    font-size: 20px;
+    color: #0000007c;
+}
