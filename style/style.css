@@ -46,7 +46,7 @@ header {
 nav {
     display: flex;
     align-items: center;
-    padding-bottom: 158px;
+    padding-bottom: 60px;
     justify-content: space-between;
     margin: 0px 150px;
 }
@@ -68,3 +68,42 @@ nav {
     padding-bottom: 50px;
 }
 
+/* action-section */
+
+.action-section {
+    margin: 80px 150px;
+}
+
+.action-items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-img img {
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.action-item {
+ width: 517px;
+ height: 203px;
+
+}
+
+.action-item h3 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.action-item p {
+    color: #25243289;
+    margin-right: 80px;
+}
+
+         /* user-section */
